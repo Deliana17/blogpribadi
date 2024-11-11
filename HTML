@@ -3,79 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Saya</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>REKOMEDASI WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
+    
+    <!--menu-->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><img src="gambar/logo.jpg" alt="Logo"/></div>           
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#tentang-saya">Tentang saya</a></li>
+                    <li><a href="#rekomendasi-web">Rekomendasi Web </a></li>
+                    <li><a href="#tutorial-web">Tutorial </a></li>                                    
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+    <!--hero/jumbotro --> 
     <header>
-        <nav>
-            <a href="#home" class="nav-link" onclick="showSection('home')">Home</a>
-            <a href="#about" class="nav-link" onclick="showSection('about')">Tentang Saya</a>
-            <a href="#recommendations" class="nav-link" onclick="showSection('recommendations')">Rekomendasi Cerita</a>
-        </nav>
+        <div class="header-opacity"></div>
+        <div class="header-jumbotron">
+            <h1>Deliana.id</h1>
+            <h2>Rekomendasi websit Belajar pemrograman<br /> Semoga blog ini dapat membantu anda.</h2>
+            <p>mulai belajar pemrograman sekarang, dan cukup #dirumahaja</p>
+            <a href="#rekomendasi-web" class="button button-xl">Pelajari Lebih Lanjut</a>
+        </div>
     </header>
-        <section id="home" class="section active">
-            <div class="home-content">
-                <img src="Tugas Prognet/tugas1/foto home.jpg" alt="foto home" class="foto-home">
-                <div>
-                    <h1>Selamat Datang di Blog Saya</h1>
-                    <p>
-                        Selamat datang di blog pribadi saya. Di sini saya akan merekomendasi beberapa cerita yang seru dan menarik untuk dibaca. Saya berharap rekomendasi ini bisa membantu teman-teman menemukan cerita yang menginspirasi, menghibur, dan membawa kita semua ke dunia yang penuh dengan imajinasi. Baik itu petualangan epik, drama emosional, atau kisah penuh misteri, saya percaya setiap cerita memiliki daya tarik tersendiri. Jangan ragu untuk berbagi pemikiran atau rekomendasi cerita yang juga kamu sukai!
-                    </p>
+
+    <!--Tentang saya-->
+    <section id="tentang-saya">
+        <div class="wrapper">
+            <h3> Tentang Saya</h3>
+            <p>Mulai membuat blog tentang rekomendasi website di tahun 2024. supaya bisa terus belajar dan terus berbagi.</p>
+            <div class="content">
+                <div class="foto"><img src="gambar/Tentang saya.jpg" alt="Foto Tentang Saya"/></div>
+                <div class="desc">
+                    <p>saya Deliana Br manalu, saya berumur 19th, Saya kuliah di Universitas Udayana, fakultas Teknik, Jurusan Teknologi Informasi.</p>
+                    <p>Ini merupakan media Sosial saya.</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/deliana.manalu/profilecard/?igsh=bGQ4MWppNW9pNTl5"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@delianamanalu8?_t=8rAAThKLCDw&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/deliana-manalu-5b88a6285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://line.me/ti/p/59CqKlxTR5"><i class="fa-brands fa-line"></i></a>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section> 
 
-        <section id="about" class="section">
-            <img src="Tugas Prognet/tugas1/gambar diri.jpg" alt="gambar diri" class="foto-gambar-diri">
-                <div>
-                    <h2>Tentang Saya</h2>
-                    <p>
-                        Halo! Perkenalkan, nama saya Deliana Br Manalu, biasa dipanggil Deliana. Saat ini saya berumur 19 tahun, saya berasal dari Medan, Sumatera Utara, dan saat ini sedang menempuh pendidikan di Universitas Udayana, Bali.
-                    </p>
+    <!--Rekomendasi web-->
+    <section id="rekomendasi-web">
+        <div class="wrapper">
+            <h4>Rekomendasi <small>Web</small></h4>
+            <p>Berikut beberapa rekomendasi website untuk belajar pemograman</p>
+
+            <div class="grid">
+                <div class="item">
+                    <img src="gambar/gambar1.jpg" alt="W3Schools"/>
+                    <div class="item-detail"></div>
+                    <p>W3schools</p>
+                    <p>W3Schools adalah situs web pembelajaran pengembangan web terbesar di dunia, menawarkan tutorial gratis, latihan, kuis, dan sertifikasi untuk HTML, CSS, JavaScript, Python, SQL, dan banyak bahasa serta teknologi lainnya. Platform ini juga menyediakan editor kode online, pemilih warna, permainan kode, templat web, dan fitur lainnya untuk meningkatkan pengalaman belajar Anda.</p>
+                    <div>
+                         <a href="https://www.w3schools.com" class="button">Lihat</a>
+                    </div>
                 </div>
-                    <p>Anda dapat menghubungi saya di media sosial:</p>
-            <ul class="social-media-list">
-                <li><a href="https://www.instagram.com/deliana.manalu?utm_source=qr" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100076924962266" target="_blank">Facebook</a></li>
-                <li><a href="https://www.linkedin.com/in/deliana-manalu-5b88a6285" target="_blank">LinkedIn</a></li>
-                <li><a href="mailto:delianabrmanalu@gmail.com">Email</a></li>
-            </ul>
-        </section>
+                <div class="item">
+                    <img src="gambar/gambar2.jpeg" alt="TutorialsPoint"/>
+                    <div class="item-detail"></div>
+                    <p>TutorialsPoint</p>
+                    <p>TutorialsPoint adalah platform pembelajaran online yang menyediakan tutorial, kursus, dan eBook tentang berbagai topik teknologi dan pemrograman, seperti Java, Python, C++, dan lain-lainnya, serta rekayasa perangkat lunak. Didesain untuk pelajar dari pemula hingga profesional, platform ini membantu mengembangkan keterampilan di bidang teknologi dan pemrograman.</p>
+                    <div>
+                         <a href="https://www.tutorialspoint.com" class="button">Lihat</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="gambar/gambar3.png" alt="freeCodeCamp"/>
+                    <div class="item-detail"></div>
+                    <p>freeCodeCamp</p>
+                    <p>freeCodeCamp adalah platform pembelajaran online yang menawarkan kurikulum pemrograman gratis dan interaktif. Platform ini menyediakan berbagai sertifikasi dalam pengembangan web, pembelajaran mesin, dan topik terkait lainnya. Materi pembelajaran mencakup HTML, CSS, JavaScript, React, dan banyak lagi. freeCodeCamp juga memiliki komunitas aktif yang mendukung proses belajar.</p>
+                    <div>
+                         <a href="https://www.freecodecamp.org" class="button">Lihat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Tutorial web-->
+    <section id="tutorial-web">
+        <div class="wrapper">
+            <h5><span>Tutorial</span>Web</h5>
+            <p>Berikut ini cara menggunakan website yang saya berikan</p>            
+            
+            <!-- Tutorial W3Schools -->
+            <div class="tutorial-item">
+                <h4>1. W3Schools</h4>
+                <p>W3Schools adalah tempat yang sangat baik untuk memulai belajar pengembangan web. Berikut adalah cara menggunakan W3Schools:</p>
+                <ol>
+                    <li><strong>Kunjungi situs web:</strong> Pergi ke <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.<br />lalu daftar terlebih dahulu</li>
+                    <li><strong>Pilih tutorial:</strong> Selanjutnya Pilih bahasa atau teknologi yang ingin Anda pelajari seperti HTML, CSS, JavaScript, atau Python.<br /> seperti gambar yg dibawah saya di sini ingin belajar html </li>
+                    <img src="gambar/tutorial1.1.png" alt="W3Schools"/>
+                    <li><strong>Ikuti tutorial:</strong> Setiap tutorial dilengkapi dengan penjelasan dan contoh kode. Anda bisa menyalin dan memodifikasi kode untuk mencoba sendiri.<br /> Seperti gambar di bawah, itu adalah dasar dari HTML, di dalam gambar tersebut terdapat penjelasan mengenai dasar html dan di ikuti dengan contoh kodenya di bagian bawah nya</li>
+                    <img src="gambar/tutorial1.2.png" alt="W3Schools"/>
+                    <li><strong>Latihan:</strong> Gunakan editor kode online untuk menguji kode yang telah dipelajari langsung di browser.<br /> seperti gambar di bawah, anda dapat mencobanya langsung dari website nya</li>
+                    <img src="gambar/tutorial1.3.png" alt="W3Schools"/>
+                    <li><strong>Uji kemampuan Anda:</strong> Setelah selesai, Anda bisa mengikuti kuis atau ujian untuk menguji pemahaman Anda tentang topik yang dipelajari.<br /> seperti gambar di bawah, setiap akhir slid pembelajaran andan akan menemukan latihan yg bisa anda kerjakan, supaya anda tahu kemampuan yg anda dapat dari slid yang baru saja anda pelajari</li>
+                    <img src="gambar/tutorial1.4.png" alt="W3Schools"/>
+                </ol>
+            </div>
+
+            <!-- Tutorial TutorialsPoint -->
+            <div class="tutorial-item">
+                <h4>2. TutorialsPoint</h4>
+                <p>TutorialsPoint menawarkan berbagai tutorial untuk hampir semua bahasa pemrograman dan teknologi. Berikut cara menggunakan TutorialsPoint:</p>
+                <ol>
+                    <li><strong>Kunjungi situs web:</strong> Buka <a href="https://www.tutorialspoint.com" target="_blank">TutorialsPoint</a>.</li>
+                    <li><strong>Pilih tutorial atau kursus:</strong> Gunakan fitur pencarian untuk menemukan tutorial atau kursus yang diinginkan (misalnya, Java, Python, C++, dsb).</li>
+                    <li><strong>Baca dan pahami materi:</strong> Setiap tutorial memiliki penjelasan mendalam, dengan contoh yang mudah dipahami. Pastikan Anda membaca dan memahami setiap bagian sebelum melanjutkan.</li>
+                    <li><strong>Praktek langsung:</strong> Banyak tutorial yang menyediakan lingkungan pengkodean langsung atau file untuk diunduh, sehingga Anda dapat mencoba kode secara langsung di komputer Anda.</li>
+                    <li><strong>Unduh eBook:</strong> Untuk pemahaman lebih dalam, Anda dapat mengunduh eBook tutorial yang tersedia di banyak topik.</li>
+                </ol>
+            </div>
+
+            <!-- Tutorial freeCodeCamp -->
+            <div class="tutorial-item">
+                <h4>3. freeCodeCamp</h4>
+                <p>freeCodeCamp adalah platform pembelajaran gratis dengan pendekatan yang sangat praktis. Berikut adalah cara menggunakan freeCodeCamp:</p>
+                <ol>
+                    <li><strong>Kunjungi situs web:</strong> Masuk ke <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>.</li>
+                    <li><strong>Bergabung dengan komunitas:</strong> Anda dapat membuat akun secara gratis untuk memulai kursus dan melacak kemajuan Anda.</li>
+                    <li><strong>Pilih kursus:</strong> Pilih kursus yang ingin Anda pelajari seperti pengembangan web, pembelajaran mesin, atau analisis data.</li>
+                    <li><strong>Pelajari materi:</strong> freeCodeCamp menyediakan tutorial interaktif yang memungkinkan Anda menulis kode langsung di browser dan melihat hasilnya secara langsung.</li>
+                    <li><strong>Selesaikan tantangan:</strong> Kursus terdiri dari tantangan yang harus Anda selesaikan untuk melanjutkan ke materi berikutnya. Pastikan untuk menyelesaikan semua tantangan.</li>
+                    <li><strong>Dapatkan sertifikat:</strong> Setelah menyelesaikan kursus, Anda akan mendapatkan sertifikat yang dapat ditambahkan ke profil LinkedIn Anda atau dibagikan di media sosial.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
 
 
-        <section id="recommendations" class="section">
-            <h2>Rekomendasi Cerita</h2>
-            <p>
-                Berikut adalah beberapa rekomendasi cerita yang menarik untuk Anda baca:
-            </p>
-            <ul>
-                <li><strong>1. "Laut Bercerita" oleh Leila S. Chudori</strong> - Sebuah novel yang menggambarkan kehidupan nelayan di Indonesia dan perjuangan mereka.</li>
-                <li><strong>2. "Saksi" oleh Okky Madasari</strong> - Sebuah cerita yang mengisahkan tentang keberanian dan keadilan dalam menghadapi ketidakadilan.</li>
-                <li><strong>3. "00.00" oleh Ameylia Falensia</strong> - Kehidupan Lengkara Putri Langit, seorang gadis remaja dengan semua masalahnya.</li>
-                <li><strong>4. "Sang Pemimpi" oleh Andrea Hirata</strong> - Kisah inspiratif tentang mimpi dan perjuangan anak-anak di Belitong.</li>
-                <li><strong>5. "Mariposa" oleh Luluk HF</strong> - Kisah inspiratif tentang mimpi dan perjuangan anak-anak di Belitong.</li>  
-            </ul>
-        </section>
+<section id="komentar">
+    <div class="wrapper">
+        <h6>Berikan Masukan atau Pertanyaan Anda</h6>
+        <p>Apakah ada yang ingin Anda tanyakan atau sampaikan? Tinggalkan komentar Anda di bawah.</p>
 
-        <script>
-            function showSection(sectionId) {
-                const sections = document.querySelectorAll('.section');
-                sections.forEach(section => {
-                    section.classList.remove('active');
-                    section.style.display = 'none'; 
-                });
-                const activeSection = document.getElementById(sectionId);
-                activeSection.style.display = 'block';
-                requestAnimationFrame(() => {
-                    activeSection.classList.add('active');
-                });
-            }
+        <div class="comment-box">
+            <textarea id="user-comment" placeholder="Tulis komentar Anda..." rows="4"></textarea>
+            <button onclick="submitComment()" class="button">Kirim Komentar</button>
+        </div>
+
+        <div id="comments-list">
+            <!-- Komentar-komentar yang masuk akan ditampilkan di sini -->
+        </div>
+    </div>
+</section>
     
-            window.onload = function() {
-                showSection('home');
-            }
-        </script>
-
+    <script src="main.js"></script>
 </body>
 </html>
